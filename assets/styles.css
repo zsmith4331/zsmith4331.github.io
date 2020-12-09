@@ -1,0 +1,79 @@
+body {
+    background-color: #818eb1;
+}
+.navbar a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.name {
+    color: #c2c8ce;
+    font-size: 26px;
+}
+
+.jobtitle {
+    font-size: 20px;
+    color: #020202
+}
+
+.page-header {
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #020202
+}
+
+.profile {
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+    float: left;
+}
+
+.info {
+    margin: 15px;
+    width: 350px;
+    padding: 15px;
+    word-wrap: break-word;
+    float: left;
+}
+
+.sociallinks nav ul li {
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.aboutme,
+.port-container {
+    margin-bottom: 30px;
+    padding: 25px;
+    height: 750px;
+    width: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.contact-container {
+    margin-top: 50px;
+    padding: 25px;
+    height: 750px;
+    width: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #333;
+    }
+
+    .profile{
+        float: left;
+    }
+
+    .info {
+        float: left;
+        margin: 20px;
+
+    }
+}
