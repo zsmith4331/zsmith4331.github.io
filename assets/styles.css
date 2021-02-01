@@ -1,6 +1,4 @@
-body {
-    background-color: #818eb1;
-}
+/* Navigation Bar Styling */
 .navbar a {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
@@ -12,46 +10,71 @@ body {
 
 .jobtitle {
     font-size: 20px;
-    color: #020202
+    color: #818eb1;
 }
 
+/* Background Color */
+body {
+    background-color: #eef0f7;
+}
+
+/* Body */
 .page-header {
-    margin-top: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #020202
+    margin-top: 100px;
+}
+
+.breakline {
+    background-color: dimgrey;
+    height: 3px;
+    width: 50%;
+
 }
 
 .profile {
-    width: 400px;
-    height: 400px;
-    margin: 25px;
-    float: left;
+    background-color:  #818eb1;
+    padding: 30px; 
+    text-align: center; 
+    display: inline-block; 
+    clear: left;  
 }
 
-.info {
-    margin: 15px;
-    width: 350px;
-    padding: 15px;
-    word-wrap: break-word;
-    float: left;
+img {
+    border-radius: 5%;
+  }
+
+.headshot {
+    background-color: #818eb1;
+    position: relative; 
 }
 
-.sociallinks nav ul li {
-    display: inline-block;
-    padding: 5px;
-    margin-bottom: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-.aboutme,
 .port-container {
     margin-bottom: 30px;
     padding: 25px;
-    height: 750px;
-    width: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
+    /* color: #ffffff; */
+}
+.port-breakline {
+    background-color: dimgrey;
+    height: 3px;
+    width: 100%;
+
+}
+
+.project-title {
+    font-size: x-large;
+}
+.cardcolor {
+    background-color: #818eb1;
+}
+.card-title {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #020202
+}
+.card-text {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #020202
 }
 
 .contact-container {
@@ -61,6 +84,13 @@ body {
     width: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.footer {
+    position: absolute;
+
+}
+
+
 
 @media screen and (max-width: 768px) {
     body {

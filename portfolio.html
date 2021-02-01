@@ -4,8 +4,10 @@
     <title>Portfolio | Zachary Smith</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2f0e2cb727.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
+
   <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -15,53 +17,82 @@
         
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
         </button>
+      </div>
 
       <div class="collapse navbar-collapse" id="navbar">
         <div class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
           <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/zachary-smith-144b31107/"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a class="nav-link" target="_blank" href="https://github.com/zsmith4331"><i class="fab fa-github fa-lg"></i></a>
         </div>
       </div>
 
     </nav>
 
     <main class="port-container">
+      <div class="page-header">
 
-      <section class="row">
-        <section class="col-md-6">
-          <section class="page-header">
-            <h1 style="text-decoration: underline;">Portfolio</h1>
-          </section>
+         <!-- <section class="row center"> -->
 
-      <section class="row">
-        <section class="col-lg-6 col-sm-6">
-        <img src="http://placehold.it/200x200" class="rounded float-start" alt="placeholder">
+      <div class="card cardcolor col-md-12 mt-4">          
+        <div class="text-center mt-4 align-items-center"><h1>Portfolio</h1></div>
+        <hr class="port-breakline">
+          <div class="d-flex align-items-stretch">
+            <div class="col-md-4 p-3 d-flex align-items-stretch">
+              <div class="card border-secondary mb-3">
+                <div class="card-header text-center project-title">Coding Quiz Challenge</div>
+                <!-- <hr/> -->
+                <p class="card-text text-center mt-2">A web-application to test your knowlegde on Coding.</p>
+                <img class="card-img-top p-2" src="./assets/Images/Coding Quiz Challenge.png" alt="Coding Quiz Example" width="200" height="250">
+                <!-- <hr/> -->
+                <div class="card-body d-flex flex-column">
+                  <a href="https://zsmith4331.github.io/homework4/" class="button btn btn-primary center-block d-block mx-auto">Link to Deployed Application</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 p-3 d-flex align-items-stretch">
+              <div class="card border-secondary mb-3">
+                <div class="card-header text-center project-title">Weather Dashboard</div>
+                <p class="card-text text-center mt-2">A web-application to get current and forecasted weather.</p>                
+                <img class="card-img-top p-2" src="./assets/Images/weatherdashboard.png" alt="Weather Dashboard Example" width="200" height="250">
+                <div class="card-body d-flex flex-column">
+                  <a href="https://zsmith4331.github.io/weather-dashboard/" class="button btn btn-primary center-block d-block mx-auto">Link to Deployed Application</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 p-3 d-flex align-items-stretch">
+              <div class="card border-secondary mb-3">
+                <div class="card-header text-center project-title">The Location Hub</div>
+                <p class="card-text text-center mt-2">A project from Coding Bootcamp working with a team. Allows you to enter city and state to pull up various data based on the location entered.</p>
+                <img class="card-img-top p-2" src="./assets/Images/locationhub.png" alt="Location Hub Example" width="200" height="250">
+              <div class="card-body d-flex flex-column">                  
+                  <a href="https://zsmith4331.github.io/project1-team4/" class="button btn btn-primary center-block d-block mx-auto">Link to Deployed Application</a>
+                </div>
+              </div>
+            </div>
+
+          </div> 
+
+
+
+
+         
+
         </section>
-        <section class="col-lg-6 col-sm-6">
-        <img src="http://placehold.it/200x200" class="rounded float-end" alt="placeholder">
-      </section>
       </section>
 
     </main>
     
+
+    
     <footer>
-      <nav class="sociallinks text-center">
-        <nav> 
-          <h3>Follow Me</h3>
-
-          <ul> 
-            <li><a href="https://www.linkedin.com/in/zachary-smith-144b31107/">Linkedin</a></li>
-            <li><a href="https://github.com/zsmith4331">Github</a></li>
-            <li><a href="https://twitter.com/smitty4331">Twitter</a></li>
-          </ul>
-
-        </nav>
-
-        <nav class="footer fixed-bottom">
-          <p class="text-muted text-muted-footer text-center">&copy; Copyright Zachary Smith</p>
-        </nav>
-      
+      <nav class="footer fixed-bottom">
+        <p class="text-muted text-muted-footer text-center">&copy; Copyright Zachary Smith</p>
+      </nav>
     </footer>
 
     <!-- jQuery CDN -->
