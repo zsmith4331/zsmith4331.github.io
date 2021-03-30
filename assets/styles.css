@@ -14,8 +14,15 @@
 }
 
 /* Background Color */
-body {
+/* body {
     background-color: #eef0f7;
+} */
+
+/* Background Image */
+.backgroundimage {
+    background-image: url("./Images/backgroundimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Body */
@@ -58,6 +65,10 @@ img {
     height: 3px;
     width: 100%;
 
+}
+
+.logo {
+    height: 100px;
 }
 
 .project-title {
