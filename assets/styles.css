@@ -48,16 +48,13 @@
     border-style: double; 
 }
 
-img {
-    border-radius: 5%;    
-}
-
 .headshot {
     /* background-color: #607767; */
     position: relative;
     border: #333;
     border-style: double;    
     background-color: #648a70;
+    border-radius: 5%;  
 }
 
 .btn-resume {
@@ -69,7 +66,6 @@ img {
     margin-bottom: 30px;
     padding: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* color: #ffffff; */
 }
 
 .port-breakline {
@@ -82,9 +78,6 @@ img {
     height: 100px;
 }
 
-.project-title {
-    font-size: x-large;
-}
 .example {
     border: #333;
     border-style: double;   
@@ -118,10 +111,61 @@ img {
 .campusimg {
     width: auto;
     height: 300px;
-    /* float: left; */
-    /* margin: 10px; */
 }
 
+.portfolioCardHeader {
+    background-color: #343a40;
+    color: #818eb1;
+    border: #333;
+    border-style: double;  
+    font-size: x-large;    
+    
+}
+
+.portfolioCard {
+    background-color: #648a70;
+    border: #333;
+    border-style: double;  
+    
+}
+.projectBreakline {
+    background-color: dimgrey;
+    height: 3px;
+    width: 75%;
+}
+
+.btn-portfolio {
+    background-color: #343a40;
+    color: #818eb1;
+    
+}
+.projectDescription {
+    font-size: large;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.techUsed {
+    font-size: xx-large;
+    text-align: center; 
+    text-decoration: underline;
+
+}
+.projectTech {
+    font-size: x-large;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.projectImg {
+    padding-left: 3%;
+    padding-right: 3%;    
+    width: 100%;
+    height: auto;
+
+}
 
 @media screen and (max-width: 768px) {
     body {
