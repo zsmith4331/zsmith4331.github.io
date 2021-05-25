@@ -60,6 +60,11 @@ img {
     background-color: #648a70;
 }
 
+.btn-resume {
+    background-color: #343a40;
+    color: #818eb1;
+}
+
 .port-container {
     margin-bottom: 30px;
     padding: 25px;
