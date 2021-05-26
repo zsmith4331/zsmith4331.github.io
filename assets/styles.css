@@ -54,7 +54,7 @@
     border: #333;
     border-style: double;    
     background-color: #648a70;
-    border-radius: 5%;  
+    /* border-radius: 5%;   */
 }
 
 .btn-resume {
